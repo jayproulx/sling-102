@@ -1,0 +1,15 @@
+{
+  "jcr:primaryType" : "sling:Folder",
+  "jcr:title" : "Hello World",
+  "jcr:description" : "This is your first Sling example!",
+  "sling:resourceType" : "hello-world",
+  "jcr:mixinTypes": [
+    "mix:lockable"
+  ],
+  "security:acl" : [
+    {
+      "principal" : "everyone",
+      "granted" : ["jcr:read"]
+    }
+  ]
+}
