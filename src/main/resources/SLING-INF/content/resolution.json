@@ -1,0 +1,15 @@
+{
+  "jcr:primaryType" : "sling:Folder",
+  "jcr:title" : "Resolution Example",
+  "jcr:description" : "Examples of how Sling resolves which template to use",
+  "sling:resourceType" : "hello-world/resolution",
+  "jcr:mixinTypes": [
+    "mix:lockable"
+  ],
+  "security:acl" : [
+    {
+      "principal" : "everyone",
+      "granted" : ["jcr:read"]
+    }
+  ]
+}
