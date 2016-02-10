@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>An ESP Example</title>
+  </head>
+  <body>
+    <h1><%= currentNode["jcr:title"] %></h1>
+
+    esp-example.esp
+
+    <% sling.include(currentNode.getPath(), "replaceSelectors=links"); %>
+  </body>
+</html>
